@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Checklist Diário</title>
+
+<script>
+
+const formularios = {
+1:"https://docs.google.com/forms/d/e/1FAIpQLSelPusXlET0_3d89IYk7Co0FE1QL-SSdPwHATUyzOKmzE98sw/viewform",
+2:"https://docs.google.com/forms/d/e/1FAIpQLSf8jgqgoQHsZt-PrTfW8svcB6j7oCkXwANmE4LyPhUDT5jLaw/viewform",
+3:"https://docs.google.com/forms/d/e/1FAIpQLSermI1DZAn1-7w7omLpODMGWseoBrQiJMcPfXri0UBctHoxSg/viewform",
+4:"https://docs.google.com/forms/d/e/1FAIpQLSfbHBaSiruFzp2uXozG1XA3BN1rl0evU4M8V2sEOrKrisvAtA/viewform",
+5:"https://docs.google.com/forms/d/e/1FAIpQLSdYEufTO5-ByM5kz-4r0Nljp8j5VXEI1ANJ_Z_CuXTjeh_jxw/viewform",
+6:"https://docs.google.com/forms/d/e/1FAIpQLSdJjaWv8Z_EwfO4CL-Sm2o5lpgKAGyF_FPdZvhzbjtqCKb4aQ/viewform",
+0:"https://docs.google.com/forms/d/e/1FAIpQLSdd3qUyPKGrQgRRCRoPoqmbmwJrffyC9e1Al6u3hN-GeTmIig/viewform"
+};
+
+window.onload = function(){
+
+const hoje = new Date();
+
+const dia = hoje.getDay();
+
+window.location.replace(formularios[dia]);
+
+};
+
+</script>
+
+</head>
+
+<body>
+
+<h2>Redirecionando...</h2>
+
+</body>
+</html>
